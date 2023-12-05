@@ -1,3 +1,27 @@
 #home {
   height: 100vh;
+  padding: 0 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#home h1 {
+  font-size: 4rem;
+}
+
+#home p {
+  margin-top: 2rem;
+  font-size: var(--font-size-md);
+}
+
+#home .button-wrapper {
+  margin-top: 4rem;
+  display: flex;
+  gap: 2rem;
+}
+
+#home button {
+  padding: 1rem 2rem;
+  font-size: var(--font-size-md);
 }

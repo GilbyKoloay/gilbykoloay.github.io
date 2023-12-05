@@ -3,7 +3,10 @@
     <title>Gilby E. A. Koloay's Portfolio</title>
 
     <!-- css -->
-    <link rel='stylesheet' type='text/css' href='styles.css'> 
+    <link rel='stylesheet' type='text/css' href='styles.css'>
+    <link rel='stylesheet' type='text/css' href='css/body.css'>
+    <link rel='stylesheet' type='text/css' href='css/header.css'>
+    <link rel='stylesheet' type='text/css' href='css/button.css'>
     <link rel='stylesheet' type='text/css' href='pages/home/styles.css'>
     <link rel='stylesheet' type='text/css' href='pages/home/styles.css'>
     <link rel='stylesheet' type='text/css' href='pages/about/styles.css'>
@@ -16,7 +19,11 @@
 
 
 
-  <body>
+  <body class='dark-theme'>
+    <header id='header'>
+      <button class='tertiary' title='Switch to light theme'>Switch Theme</button>
+    </header>
+
     <div id='home'></div>
     <div id='about'></div>
     <div id='work-experience'></div>
@@ -26,6 +33,6 @@
     <div id='contact'></div>
 
     <!-- scripts -->
-    <script src='scripts.js'></script>
+    <script src='main.js'></script>
   </body>
 </html>

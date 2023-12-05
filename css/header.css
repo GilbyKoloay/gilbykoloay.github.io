@@ -1,0 +1,11 @@
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header button {
+  margin: 2rem;
+}
