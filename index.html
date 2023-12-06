@@ -1,27 +1,16 @@
-<html>
+<!DOCTYPE html>
   <head>
-    <title>Gilby E. A. Koloay's Portfolio</title>
+    <title>Gilby E. A. Koloay</title>
 
     <!-- css -->
-    <link rel='stylesheet' type='text/css' href='styles.css'>
-    <link rel='stylesheet' type='text/css' href='css/body.css'>
-    <link rel='stylesheet' type='text/css' href='css/header.css'>
-    <link rel='stylesheet' type='text/css' href='css/button.css'>
-    <link rel='stylesheet' type='text/css' href='pages/home/styles.css'>
-    <link rel='stylesheet' type='text/css' href='pages/home/styles.css'>
-    <link rel='stylesheet' type='text/css' href='pages/about/styles.css'>
-    <link rel='stylesheet' type='text/css' href='pages/work-experience/styles.css'>
-    <link rel='stylesheet' type='text/css' href='pages/projects/styles.css'>
-    <link rel='stylesheet' type='text/css' href='pages/skills/styles.css'>
-    <link rel='stylesheet' type='text/css' href='pages/education/styles.css'>
-    <link rel='stylesheet' type='text/css' href='pages/contact/styles.css'>
+    <link rel='stylesheet' type='text/css' href='css/index.css'>
   </head>
 
 
 
   <body class='dark-theme'>
-    <header id='header'>
-      <button class='tertiary' title='Switch to light theme'>Switch Theme</button>
+    <header>
+      <button id='theme-switcher' class='tertiary' title='Switch to light theme'>Switch Theme</button>
     </header>
 
     <div id='home'></div>
@@ -33,6 +22,8 @@
     <div id='contact'></div>
 
     <!-- scripts -->
-    <script src='main.js'></script>
+    <script src='scripts/loadPages.js'></script>
+    <script src='scripts/themeSwitcher.js'></script>
+    <script src='pages/home/script.js'></script>
   </body>
 </html>

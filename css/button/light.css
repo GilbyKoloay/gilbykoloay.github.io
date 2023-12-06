@@ -1,0 +1,27 @@
+.light-theme button {
+  color: var(--color-dark-high);
+}
+
+.light-theme button.primary {
+  background-color: var(--color-light-low);
+  border: 2px solid var(--color-light-low);
+}
+.light-theme button.primary:hover {
+  background-color: var(--color-neutral);
+}
+
+.light-theme button.secondary {
+  background-color: var(--color-light-high);
+  border: 2px solid var(--color-light-low);
+}
+.light-theme button.secondary:hover {
+  background-color: var(--color-light-low);
+}
+
+.light-theme button.tertiary {
+  background-color: var(--color-light-high);
+  border: 2px solid transparent;
+}
+.light-theme button.tertiary:hover {
+  background-color: var(--color-light-low);
+}

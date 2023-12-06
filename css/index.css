@@ -1,0 +1,49 @@
+/* pages */
+@import url('../pages/home/style.css');
+
+/* tags */
+@import url('body/index.css');
+@import url('header/index.css');
+@import url('button/index.css');
+
+
+
+:root {
+  --color-dark-high: #171717;
+  --color-dark-low: #404040;
+  --color-neutral: #737373;
+  --color-light-low: #D4D4D4;
+  --color-light-high: #F5F5F5;
+
+  --font-size-sm: 1rem;
+  --font-size-md: 1.25rem;
+  --font-size-lg: 2rem;
+  --font-size-xl: 4rem;
+}
+
+
+
+body,
+h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+h1, p,
+button {
+  transition: background-color 0.2s ease-in-out;
+  transition: color 0.25s ease-in-out;
+}
+
+
+
+h1 {
+  font-size: var(--font-size-xl);
+  font-weight: bold;
+}
+
+h2 {
+  font-size: var(--font-size-lg);
+  font-weight: bold;
+}

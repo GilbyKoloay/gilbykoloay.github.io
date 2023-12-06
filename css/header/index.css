@@ -1,11 +1,8 @@
 header {
   width: 100%;
   position: fixed;
-  top: 0;
+  top: 2rem;
+  right: 2rem;
   display: flex;
   justify-content: flex-end;
-}
-
-header button {
-  margin: 2rem;
 }

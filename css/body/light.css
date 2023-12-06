@@ -1,0 +1,4 @@
+body.light-theme {
+  background-color: var(--color-light-high);
+  color: var(--color-dark-high);
+}

@@ -6,8 +6,16 @@
   justify-content: center;
 }
 
-#home h1 {
-  font-size: 4rem;
+#home .title-wrapper {
+  display: flex;
+  gap: 1rem;
+}
+
+#home h1#name,
+#home h1#title {
+  background: linear-gradient(to right, #84cc16, #22c55e, #10b981);
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 #home p {
